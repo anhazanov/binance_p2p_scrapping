@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная
+{% endblock %}
+
+{% block body %}
+<div class="bg-dark"><img class="img-fluid position-absolute end-0" src="assets/img/hero/hero-bg.png" alt="" />
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section>
+      <div class="container">
+        <div class="row align-items-center py-lg-8 py-6">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="text-white fs-5 fs-xl-6">Р2Р сканер для поиска межбиржевых и внутрибиржевых связок</h1>
+            <p class="text-white py-lg-3 py-2">К системе подключено 7 бирж! Каждые 2-3 минуты расчитывается более 300 000 связок! 4 варианта ролей для тейкеров и мейкеров.</p>
+            <div class="d-sm-flex align-items-center gap-3"><button class="btn btn-success text-black mb-3 w-75" onclick="window.location.href = ''">Оформить подписку</button><button class="btn btn-outline-light mb-3 w-75">Обзор сервиса</button></div>
+          </div>
+          <!-- <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"><img class="img-fluid" src="static/images/img/hero/s.png" alt="" /></div> -->
+          <div class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"><img class="img-fluid" src="static/images/banner.webp" alt="" /></div>
+        </div>
+        <div class="swiper">
+          <div class="swiper-container swiper-shadow swiper-theme" data-swiper='{"slidesPerView":2,"breakpoints":{"640":{"slidesPerView":2,"spaceBetween":20},"768":{"slidesPerView":4,"spaceBetween":40},"992":{"slidesPerView":5,"spaceBetween":40},"1024":{"slidesPerView":4,"spaceBetween":50},"1025":{"slidesPerView":6,"spaceBetween":50}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"freeMode":true,"autoplay":{"delay":2500,"disableOnInteraction":false}}'>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide text-center"><img src="static/images/img/logos/Binance_logo.png" alt="" /></div>
+              <div class="swiper-slide text-center"><img src="static/images/img/logos/Huobi-logo.png" alt="" /></div>
+              <div class="swiper-slide text-center"><img src="static/images/img/logos/okx-logo.png" alt="" /></div>
+              <div class="swiper-slide text-center"><img src="static/images/img/logos/bybit-logo.png" alt="" /></div>
+              <div class="swiper-slide text-center"><img src="static/images/img/logos/Bitzlato-logo.png" alt="" /></div>
+              <div class="swiper-slide text-center"><img src="static/images/img/logos/Kucoin-logo.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div><!-- end of .container-->
+    </section><!-- <section> close ============================-->
+    <!-- ============================================-->
+
+</div>
+{% endblock %}

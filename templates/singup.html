@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Регистрация на сайте
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="bg-dark text-center py-9">
+          <div class="container">
+            
+            <div class="col-12 col-md-7 mx-auto">
+              <h1 class="text-white fs-lg-7 fs-md-4 fs-3 my-4">Регистрация на сайт</h1>
+            </div>
+          </div><!-- end of .container-->
+        </section><!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+<section class="pb-0">
+<div class="container">
+    {% for cat, msg in get_flashed_messages(True) %}
+    <div class="flash {{cat}}">{{msg}}</div>
+    {% endfor %}
+
+    <form action='/singup' method="POST">
+
+        <img class="mb-4" src="/static/images/logop2p.webp" alt="" width="150" height="auto">
+        <h1 class="h3 mb-3 fw-normal">Заполните форму регистрации</h1>
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="name" name="name" placeholder="name@example.com">
+          <label for="floatingInput">Логин</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="password" name="psw" placeholder="Password">
+          <label for="floatingPassword">Пароль</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="password2" name="psw2" placeholder="Password">
+          <label for="floatingPassword">Пароль еще раз</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me" name="remaime"> Запомнить меня
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Зарегистрироваться</button>
+        <p class="mt-5 mb-3 text-muted">© 2022</p>
+
+    </form>
+ </div>
+ </section>
+
+
+{% endblock %}

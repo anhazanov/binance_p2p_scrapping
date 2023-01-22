@@ -1,0 +1,225 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Торговые связки
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="static/css/example-styles.css">
+<!-- <link rel="stylesheet" type="text/css" href="static/css/demo-styles.css"> -->
+<link rel="stylesheet" type="text/css" href="static/css/util.css">
+<link rel="stylesheet" type="text/css" href="static/css/table.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+{% endblock %}
+
+{% block body %}
+<!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="bg-dark text-center py-9">
+            <div class="container">
+              <!-- <p class="text-light fs-1">Торговые связки</p> -->
+              <div class="col-12 col-md-7 mx-auto">
+                <h1 class="text-white fs-lg-7 fs-md-4 fs-3 my-4">Торговые P2P связки</h1>
+              </div>
+              <!-- <p class="w-md-50 text-light mx-auto">Расчет торговых связок производится на основании Р2Р курсов на 7 биржах. </p> -->
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================-->
+          <!-- ============================================-->
+    
+
+
+
+<section class="pb-0">
+    <div class="container">                
+        
+
+        <div class="kadobagud" aria-hidden="true">
+            <div class="angebes-koverla">
+            <div class="doveacko-gangeroun">
+            <h2>Фильтр торговых связок</h2>
+            <a href="#" class="valokan-close closemodal" aria-hidden="true">×</a>
+            </div>
+            <div class="container">            
+                <form class="demo-example" method="post" >
+                    <table> 
+                        <tr>
+                            <td class="multiselect">
+                                <label for="exchange1">Старт биржа</label><br>                    
+                                <select name="exchange1[]" id="exchange1" multiple="multiple" title="Старт биржа">
+                                    {% for row in exchange %}
+                                    <option value="{{row[0]}}">{{row[0]}}</option>';
+                                    {% endfor %}
+                                </select>
+                            </td>
+                            <td class="multiselect">
+                                <label for="exchange2">Финиш биржа</label><br>   
+                                <select name="exchange2[]" id="exchange2" multiple="multiple" title="Финиш биржа">                        
+                                {% for row in exchange %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td>
+                            <td class="multiselect">  
+                                <label for="bank1">Старт банк</label><br>   
+                                <select name="bank1[]" id="bank1" multiple="multiple" title="Старт банк">                        
+                                {% for row in bank1 %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td>
+                            <td class="multiselect"> 
+                                <label for="bank2">Финиш банк</label><br>    
+                                <select name="bank2[]" id="bank2" multiple="multiple" title="Финиш банк">                        
+                                {% for row in bank2 %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td>                            
+                        </tr>
+                        <tr>
+                            <td class="multiselect">
+                                <label for="role">Объем от, руб.</label><br>    
+                                <select name="start_min[]" id="start_min" multiple="multiple" title="Объем от, руб.">                        
+                                {% for row in start_min %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td>
+                            <td class="multiselect">  
+                                <label for="role">Старт крипта</label><br>    
+                                <select name="crypto_from[]" id="crypto_from" multiple="multiple" title="Старт крипта">                        
+                                {% for row in crypto %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td>
+                            <td class="multiselect"> 
+                                <label for="role">Финиш крипта</label><br>   
+                                <select name="crypto_to[]" id="crypto_to" multiple="multiple" title="Финиш крипта">                        
+                                {% for row in crypto %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td>
+                            <td class="multiselect">  
+                                <label for="role">Роль</label><br>  
+                                <select name="role[]" id="role" multiple="multiple" title="Роль">                        
+                                {% for row in role %}
+                                <option value="{{row[0]}}">{{row[0]}}</option>';
+                                {% endfor %}                        
+                                </select>
+                            </td> 
+                        </tr>
+                        <tr></tr>
+                        <tr><div class="kusane-avasgun">             
+                <input type="submit" class="btn btn-warning" value="Подобрать">
+            </div>   </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>                     
+                </table> 
+                       
+            </form>
+            
+            </div>
+          </div>
+        <div class="table100">            
+            <p><a href="#" class="dakisvan valokan-big openmodal"><i class="bi bi-funnel-fill"></i>
+                Фильтр торговых связок</a></p>
+        </div>        
+    </div>
+</section>  
+       
+    <div class="limiter">
+        <div class="container-table100">
+        <div class="wrap-table100">
+        <div class="table100">
+        {{ pagination.links }}
+        <br>
+        <table>
+        <thead>
+        <tr class="table100-head">
+        <th class="column1">Биржа</th>
+        <th class="column2">Роль</th>
+        <th class="column3">Платежная система</th>
+        <th class="column4">Крипта</th>
+        <th class="column5">Курсы</th>
+        <th class="column6">Объем, руб</th>
+        <th class="column7">Спред, %</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in all_trades %} 
+        <tr>
+            <td class="column1"><img class="small_logo" src="{{logo_list.get(row[0])}}" alt=""> {{row[0]}}<br>
+                                <img class="small_logo" src="{{logo_list.get(row[1])}}" alt=""> {{row[1]}}</td>
+            <td class="column2">{{row[2].split('-')[0]}}<br>
+                {{row[2].split('-')[1]}}</td>
+            <td class="column3"><img class="small_logo" src="{{logo_list.get(row[3])}}" alt=""> {{row[3]}}<br>
+                                <img class="small_logo" src="{{logo_list.get(row[4])}}" alt=""> {{row[4]}}</td>
+            <td class="column4">
+                {% for el in row[5].split('>') %}
+                {{el}}<br>
+                {% endfor %} </td>
+            <td class="column5">
+                {% for el in row[6].split('>') %}
+                {% if el==row[6].split('>')[0] %}
+                {{el}} &#8381;<br>
+                {% elif el==row[6].split('>')[-1]%}
+                {{el}} &#8381;<br>
+                {% else %}
+                {{el}}<br>
+                {% endif %}
+                {% endfor %}
+                
+                
+            </td>
+            <td class="column6">{{row[7]}} &#8381;<br>
+                {{row[8]}} &#8381;</td>
+            <td class="column7"><font color="GREEN">{{row[9]}}%</font></td>
+        </tr>
+        <!-- <tr><td colspan="7"> 
+            {{row[10]}}
+        </td></tr> -->
+        {% endfor %}
+        </tbody>
+        </table>
+        <br>
+        {{ pagination.links }}
+        </div>
+        </div>
+        </div>
+    </div>
+        
+    <script>$('.openmodal').click(function (e) {
+        e.preventDefault();
+        $('.kadobagud').addClass('midsalod');
+        });
+      $('.closemodal').click(function (e) {
+        e.preventDefault();
+        $('.kadobagud').removeClass('midsalod');
+        });
+    </script>
+    
+        <script type="text/javascript" src="static/js/src/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="static/js/src/jquery.multi-select.js"></script>
+        <script type="text/javascript">
+        $(function(){
+            $('#exchange1').multiSelect();
+            $('#exchange2').multiSelect();
+            $('#bank1').multiSelect();
+            $('#bank2').multiSelect();
+            $('#role').multiSelect();
+            $('#start_min').multiSelect();
+            $('#crypto_from').multiSelect();
+            $('#crypto_to').multiSelect();
+
+        });
+        </script>
+        
+        
+{% endblock %}

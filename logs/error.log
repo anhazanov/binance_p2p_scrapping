@@ -1,0 +1,284 @@
+[Sat Jan 21 11:24:49.853805 2023] [authz_core:error] [pid 4561:tid 140522337302272] [client 45.14.71.23:55970] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 11:24:51.118744 2023] [authz_core:error] [pid 4561:tid 140522370873088] [client 45.14.71.23:55970] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 11:25:08.187860 2023] [authz_core:error] [pid 4561:tid 140522396051200] [client 45.14.71.23:55972] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 11:25:08.855978 2023] [authz_core:error] [pid 4561:tid 140522278553344] [client 45.14.71.23:55972] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 11:26:38.202161 2023] [authz_core:error] [pid 4561:tid 140522387658496] [client 45.14.71.23:56020] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 11:26:39.011813 2023] [authz_core:error] [pid 4561:tid 140522404443904] [client 45.14.71.23:56020] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 11:26:48.328427 2023] [authz_core:error] [pid 4561:tid 140522295338752] [client 45.14.71.23:56022] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 11:42:05.551952 2023] [authz_core:error] [pid 5848:tid 140522312124160] [client 45.14.71.23:56984] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 11:42:06.884273 2023] [authz_core:error] [pid 5848:tid 140522303731456] [client 45.14.71.23:56984] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 11:44:26.148356 2023] [authz_core:error] [pid 5848:tid 140522396051200] [client 205.185.118.237:49522] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27:80/admin/login.asp
+[Sat Jan 21 11:47:37.118832 2023] [authz_core:error] [pid 6050:tid 140522261767936] [client 45.14.71.23:57612] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 11:47:38.325245 2023] [authz_core:error] [pid 6050:tid 140522253375232] [client 45.14.71.23:57612] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 11:48:05.176945 2023] [authz_core:error] [pid 6051:tid 140522320516864] [client 45.14.71.23:57650] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 11:48:05.927907 2023] [authz_core:error] [pid 6051:tid 140522354087680] [client 45.14.71.23:57650] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 12:00:52.427078 2023] [authz_core:error] [pid 6051:tid 140522345694976] [client 185.224.128.224:38232] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 12:14:04.337623 2023] [authz_core:error] [pid 6051:tid 140522312124160] [client 45.14.71.23:59492] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 12:14:06.588821 2023] [authz_core:error] [pid 6051:tid 140522303731456] [client 45.14.71.23:59492] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 12:14:49.438053 2023] [authz_core:error] [pid 6051:tid 140521792071424] [client 128.1.248.42:48690] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 12:16:04.034468 2023] [authz_core:error] [pid 6051:tid 140521330702080] [client 45.14.71.23:59646] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 12:16:04.853154 2023] [authz_core:error] [pid 6051:tid 140521750107904] [client 45.14.71.23:59646] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 12:27:36.588832 2023] [authz_core:error] [pid 6051:tid 140521775286016] [client 193.32.162.159:44508] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 12:34:46.864615 2023] [authz_core:error] [pid 6051:tid 140522379265792] [client 45.14.71.23:60890] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 12:34:47.852927 2023] [authz_core:error] [pid 6051:tid 140522387658496] [client 45.14.71.23:60890] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 12:34:48.548882 2023] [authz_core:error] [pid 6051:tid 140522370873088] [client 45.14.71.23:60890] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 12:58:37.449365 2023] [authz_core:error] [pid 6051:tid 140522337302272] [client 193.35.18.189:55560] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27:80/admin/login.asp
+[Sat Jan 21 13:38:44.829635 2023] [authz_core:error] [pid 6051:tid 140521322309376] [client 170.64.145.119:36184] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 13:51:01.788726 2023] [authz_core:error] [pid 6051:tid 140521800464128] [client 167.94.145.58:47116] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 13:51:01.868719 2023] [authz_core:error] [pid 6051:tid 140521750107904] [client 167.94.145.58:53632] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:20:44.125286 2023] [authz_core:error] [pid 6051:tid 140521775286016] [client 45.14.71.23:40130] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:20:45.018808 2023] [authz_core:error] [pid 6051:tid 140522320516864] [client 45.14.71.23:40130] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 15:34:18.437214 2023] [authz_core:error] [pid 6051:tid 140522312124160] [client 152.89.196.211:34010] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:43:55.984050 2023] [authz_core:error] [pid 7595:tid 140522203019008] [client 45.14.71.23:40710] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:43:57.578445 2023] [authz_core:error] [pid 7595:tid 140522244982528] [client 45.14.71.23:40710] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 15:43:59.602454 2023] [authz_core:error] [pid 7595:tid 140522228197120] [client 45.14.71.23:40710] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:44:00.398167 2023] [authz_core:error] [pid 7595:tid 140522236589824] [client 45.14.71.23:40710] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 15:46:36.986358 2023] [authz_core:error] [pid 7673:tid 140522320516864] [client 45.14.71.23:40762] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:46:50.163985 2023] [authz_core:error] [pid 7673:tid 140522337302272] [client 45.14.71.23:40764] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 15:49:36.418923 2023] [authz_core:error] [pid 7674:tid 140522396051200] [client 45.14.71.23:40870] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 15:51:01.768404 2023] [authz_core:error] [pid 7673:tid 140522396051200] [client 92.118.39.82:51854] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:53:01.065046 2023] [authz_core:error] [pid 7673:tid 140522370873088] [client 193.32.162.159:36420] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 15:58:25.657925 2023] [authz_core:error] [pid 7673:tid 140522194724608] [client 152.89.196.211:47860] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:14:00.764928 2023] [authz_core:error] [pid 7673:tid 140522177939200] [client 24.151.61.198:58534] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:18:15.715350 2023] [authz_core:error] [pid 7674:tid 140522362480384] [client 152.89.196.211:48310] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:24:51.398506 2023] [authz_core:error] [pid 8149:tid 140522387658496] [client 45.14.71.23:41636] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:24:52.757599 2023] [authz_core:error] [pid 8149:tid 140522379265792] [client 45.14.71.23:41636] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 16:35:34.026919 2023] [authz_core:error] [pid 8149:tid 140522320516864] [client 152.89.196.211:42326] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:38:19.255796 2023] [authz_core:error] [pid 8149:tid 140522345694976] [client 45.14.71.23:42036] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:38:20.128166 2023] [authz_core:error] [pid 8149:tid 140522337302272] [client 45.14.71.23:42036] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 16:38:20.220437 2023] [authz_core:error] [pid 8150:tid 140522253375232] [client 45.14.71.23:42044] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:38:21.822219 2023] [authz_core:error] [pid 8150:tid 140522295338752] [client 45.14.71.23:42044] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 16:49:44.518620 2023] [authz_core:error] [pid 8150:tid 140522219804416] [client 45.14.71.23:42282] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:49:46.916155 2023] [authz_core:error] [pid 8150:tid 140522211411712] [client 45.14.71.23:42282] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 16:56:40.939974 2023] [authz_core:error] [pid 8149:tid 140522219804416] [client 205.185.118.237:56524] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27:80/admin/login.asp
+[Sat Jan 21 16:57:04.682426 2023] [authz_core:error] [pid 8547:tid 140522404443904] [client 45.14.71.23:42424] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 16:57:05.922443 2023] [authz_core:error] [pid 8547:tid 140522396051200] [client 45.14.71.23:42424] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 16:58:07.750312 2023] [authz_core:error] [pid 8546:tid 140522354087680] [client 152.89.196.211:48674] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:03:05.174325 2023] [authz_core:error] [pid 9033:tid 140408386483968] [client 45.14.71.23:42582] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:03:06.349122 2023] [authz_core:error] [pid 9033:tid 140408378091264] [client 45.14.71.23:42582] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 17:03:08.283349 2023] [authz_core:error] [pid 9033:tid 140408344520448] [client 45.14.71.23:42582] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:03:09.035726 2023] [authz_core:error] [pid 9033:tid 140408361305856] [client 45.14.71.23:42582] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 17:03:30.354555 2023] [authz_core:error] [pid 9032:tid 140408378091264] [client 45.14.71.23:42584] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:03:31.054049 2023] [authz_core:error] [pid 9032:tid 140408490297088] [client 45.14.71.23:42584] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 17:05:38.290199 2023] [authz_core:error] [pid 9033:tid 140408465118976] [client 193.32.162.159:51668] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:18:35.629359 2023] [authz_core:error] [pid 9033:tid 140408319342336] [client 152.89.196.211:44394] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:19:46.968240 2023] [authz_core:error] [pid 9033:tid 140408310949632] [client 195.154.77.190:54282] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:20:06.441342 2023] [authz_core:error] [pid 9033:tid 140408268986112] [client 195.154.77.190:49892] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:27:13.972584 2023] [authz_core:error] [pid 9372:tid 140408465118976] [client 45.14.71.23:43302] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:27:15.460618 2023] [authz_core:error] [pid 9372:tid 140408386483968] [client 45.14.71.23:43302] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 17:27:43.573216 2023] [authz_core:error] [pid 9372:tid 140408498689792] [client 45.14.71.23:43304] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:27:44.329340 2023] [authz_core:error] [pid 9372:tid 140408473511680] [client 45.14.71.23:43304] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 17:35:27.930538 2023] [authz_core:error] [pid 9372:tid 140407832827648] [client 152.89.196.211:60058] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:45:36.552571 2023] [authz_core:error] [pid 9372:tid 140408361305856] [client 183.136.225.32:38490] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:47:58.015344 2023] [authz_core:error] [pid 9372:tid 140407707002624] [client 152.89.196.211:59936] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:51:05.892226 2023] [authz_core:error] [pid 9372:tid 140408344520448] [client 183.136.225.32:44997] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:51:06.353251 2023] [authz_core:error] [pid 9373:tid 140408378091264] [client 183.136.225.32:53999] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:51:07.809768 2023] [authz_core:error] [pid 9372:tid 140407849613056] [client 183.136.225.32:18722] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 17:58:19.194384 2023] [authz_core:error] [pid 9373:tid 140408352913152] [client 152.89.196.211:57610] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 18:07:35.107703 2023] [authz_core:error] [pid 9372:tid 140407824434944] [client 152.89.196.211:43738] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 18:09:51.845993 2023] [authz_core:error] [pid 9694:tid 140408294164224] [client 45.14.71.23:44206] AH01630: client denied by server configuration: /home/flask_app/app.wsgi
+[Sat Jan 21 18:09:54.212840 2023] [authz_core:error] [pid 9694:tid 140408285771520] [client 45.14.71.23:44206] AH01630: client denied by server configuration: /home/flask_app/app.wsgi, referer: http://23.111.202.27/
+[Sat Jan 21 18:10:16.878945 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208] mod_wsgi (pid=9884): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:16.879084 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208] mod_wsgi (pid=9884): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:16.879760 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208] Traceback (most recent call last):
+[Sat Jan 21 18:10:16.879806 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:10:16.879832 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208]     from app import app as application
+[Sat Jan 21 18:10:16.879845 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208]   File "/home/flask_app/app.py", line 10, in <module>
+[Sat Jan 21 18:10:16.879853 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208]     from flask_paginate import Pagination, get_page_parameter
+[Sat Jan 21 18:10:16.879874 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44208] ModuleNotFoundError: No module named 'flask_paginate'
+[Sat Jan 21 18:10:17.658493 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210] mod_wsgi (pid=9884): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:17.658553 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210] mod_wsgi (pid=9884): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:17.658656 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210] Traceback (most recent call last):
+[Sat Jan 21 18:10:17.658692 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:10:17.658701 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210]     from app import app as application
+[Sat Jan 21 18:10:17.658714 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210]   File "/home/flask_app/app.py", line 10, in <module>
+[Sat Jan 21 18:10:17.658721 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210]     from flask_paginate import Pagination, get_page_parameter
+[Sat Jan 21 18:10:17.658743 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44210] ModuleNotFoundError: No module named 'flask_paginate'
+[Sat Jan 21 18:10:21.736579 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218] mod_wsgi (pid=9884): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:21.736646 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218] mod_wsgi (pid=9884): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:21.736751 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218] Traceback (most recent call last):
+[Sat Jan 21 18:10:21.736782 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:10:21.736790 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218]     from app import app as application
+[Sat Jan 21 18:10:21.736802 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218]   File "/home/flask_app/app.py", line 10, in <module>
+[Sat Jan 21 18:10:21.736810 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218]     from flask_paginate import Pagination, get_page_parameter
+[Sat Jan 21 18:10:21.736832 2023] [wsgi:error] [pid 9884:tid 140408456726272] [remote 45.14.71.23:44218] ModuleNotFoundError: No module named 'flask_paginate'
+[Sat Jan 21 18:10:22.475202 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220] mod_wsgi (pid=9884): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:22.475261 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220] mod_wsgi (pid=9884): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:10:22.475370 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220] Traceback (most recent call last):
+[Sat Jan 21 18:10:22.475410 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:10:22.475418 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220]     from app import app as application
+[Sat Jan 21 18:10:22.475446 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220]   File "/home/flask_app/app.py", line 10, in <module>
+[Sat Jan 21 18:10:22.475453 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220]     from flask_paginate import Pagination, get_page_parameter
+[Sat Jan 21 18:10:22.475475 2023] [wsgi:error] [pid 9884:tid 140408490297088] [remote 45.14.71.23:44220] ModuleNotFoundError: No module named 'flask_paginate'
+[Sat Jan 21 18:12:51.450943 2023] [core:error] [pid 9886:tid 140408336127744] [client 152.89.196.211:54078] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jan 21 18:14:47.896640 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:14:47.896789 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:14:47.899963 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350] Traceback (most recent call last):
+[Sat Jan 21 18:14:47.900064 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:14:47.900076 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350]     from app import app as application
+[Sat Jan 21 18:14:47.900094 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:14:47.900103 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350]     conn = Database() # connect to DB
+[Sat Jan 21 18:14:47.900120 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:14:47.900129 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:14:47.900170 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44350] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:14:48.714706 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:14:48.714782 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:14:48.714917 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352] Traceback (most recent call last):
+[Sat Jan 21 18:14:48.714960 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:14:48.714969 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352]     from app import app as application
+[Sat Jan 21 18:14:48.714982 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:14:48.714989 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352]     conn = Database() # connect to DB
+[Sat Jan 21 18:14:48.715015 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:14:48.715023 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:14:48.715046 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44352] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:20:06.419068 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:20:06.419359 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:20:06.419788 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580] Traceback (most recent call last):
+[Sat Jan 21 18:20:06.419886 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:20:06.419897 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580]     from app import app as application
+[Sat Jan 21 18:20:06.419916 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:20:06.419925 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580]     conn = Database() # connect to DB
+[Sat Jan 21 18:20:06.419943 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:20:06.419953 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:20:06.420010 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:44580] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:20:07.667887 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:20:07.667967 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:20:07.668122 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582] Traceback (most recent call last):
+[Sat Jan 21 18:20:07.668173 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:20:07.668182 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582]     from app import app as application
+[Sat Jan 21 18:20:07.668197 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:20:07.668205 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582]     conn = Database() # connect to DB
+[Sat Jan 21 18:20:07.668219 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:20:07.668226 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:20:07.668249 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:44582] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:20:50.290255 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:20:50.290413 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:20:50.290725 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422] Traceback (most recent call last):
+[Sat Jan 21 18:20:50.290796 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:20:50.290805 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422]     from app import app as application
+[Sat Jan 21 18:20:50.290840 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:20:50.290847 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422]     conn = Database() # connect to DB
+[Sat Jan 21 18:20:50.290859 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:20:50.290866 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:20:50.290907 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 152.89.196.211:51422] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:25:25.263724 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:25:25.263958 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:25:25.264395 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132] Traceback (most recent call last):
+[Sat Jan 21 18:25:25.264494 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:25:25.264506 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132]     from app import app as application
+[Sat Jan 21 18:25:25.264524 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:25:25.264534 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132]     conn = Database() # connect to DB
+[Sat Jan 21 18:25:25.264551 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:25:25.264560 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:25:25.264617 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 179.43.177.242:57132] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:40:53.818010 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:40:53.818264 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:40:53.818691 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691] Traceback (most recent call last):
+[Sat Jan 21 18:40:53.818787 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:40:53.818801 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691]     from app import app as application
+[Sat Jan 21 18:40:53.818819 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:40:53.818830 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691]     conn = Database() # connect to DB
+[Sat Jan 21 18:40:53.818858 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:40:53.818868 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:40:53.818927 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 223.83.101.94:51691] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:42:04.080835 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:42:04.081093 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:42:04.081541 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858] Traceback (most recent call last):
+[Sat Jan 21 18:42:04.081635 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:42:04.081647 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858]     from app import app as application
+[Sat Jan 21 18:42:04.081666 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:42:04.081676 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858]     conn = Database() # connect to DB
+[Sat Jan 21 18:42:04.081694 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:42:04.081705 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:42:04.081763 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 152.89.196.211:33858] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:43:30.657108 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:43:30.657234 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:43:30.657926 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136] Traceback (most recent call last):
+[Sat Jan 21 18:43:30.658028 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:43:30.658043 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136]     from app import app as application
+[Sat Jan 21 18:43:30.658063 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:43:30.658073 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136]     conn = Database() # connect to DB
+[Sat Jan 21 18:43:30.658090 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:43:30.658100 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:43:30.658162 2023] [wsgi:error] [pid 10257:tid 140408490297088] [remote 45.14.71.23:45136] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:43:31.606308 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138] mod_wsgi (pid=10257): Failed to exec Python script file '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:43:31.606566 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138] mod_wsgi (pid=10257): Exception occurred processing WSGI script '/home/flask_app/app.wsgi'.
+[Sat Jan 21 18:43:31.606821 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138] Traceback (most recent call last):
+[Sat Jan 21 18:43:31.606904 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138]   File "/home/flask_app/app.wsgi", line 8, in <module>
+[Sat Jan 21 18:43:31.606919 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138]     from app import app as application
+[Sat Jan 21 18:43:31.607041 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138]   File "/home/flask_app/app.py", line 20, in <module>
+[Sat Jan 21 18:43:31.607050 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138]     conn = Database() # connect to DB
+[Sat Jan 21 18:43:31.607067 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138]   File "/home/flask_app/db.py", line 11, in __init__
+[Sat Jan 21 18:43:31.607076 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138]     self.connection = sqlite3.connect(self.db_file, check_same_thread=False)
+[Sat Jan 21 18:43:31.607122 2023] [wsgi:error] [pid 10257:tid 140408456726272] [remote 45.14.71.23:45138] sqlite3.OperationalError: unable to open database file
+[Sat Jan 21 18:44:21.870790 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188] (0,)
+[Sat Jan 21 18:44:21.874212 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188] [2023-01-21 18:44:21,871] ERROR in app: Exception on /singup [POST]
+[Sat Jan 21 18:44:21.874244 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188] Traceback (most recent call last):
+[Sat Jan 21 18:44:21.874252 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 2525, in wsgi_app
+[Sat Jan 21 18:44:21.874260 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]     response = self.full_dispatch_request()
+[Sat Jan 21 18:44:21.874271 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 1822, in full_dispatch_request
+[Sat Jan 21 18:44:21.874279 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]     rv = self.handle_user_exception(e)
+[Sat Jan 21 18:44:21.874286 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 1820, in full_dispatch_request
+[Sat Jan 21 18:44:21.874293 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]     rv = self.dispatch_request()
+[Sat Jan 21 18:44:21.874300 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 1796, in dispatch_request
+[Sat Jan 21 18:44:21.874308 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+[Sat Jan 21 18:44:21.874315 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]   File "/home/flask_app/app.py", line 63, in singup
+[Sat Jan 21 18:44:21.874322 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]     result = conn.addUser(request.form['name'], request.form['email'], hash)
+[Sat Jan 21 18:44:21.874329 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]   File "/home/flask_app/db.py", line 90, in addUser
+[Sat Jan 21 18:44:21.874336 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188]     self.cursor.execute("INSERT INTO users(name, email, password, time) VALUES(?, ?, ?, ?)", (name, email, hash, tm))
+[Sat Jan 21 18:44:21.874343 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45188] sqlite3.OperationalError: attempt to write a readonly database
+[Sat Jan 21 18:46:23.431310 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45268] where?
+[Sat Jan 21 18:46:24.439066 2023] [wsgi:error] [pid 10527:tid 140408456726272] [remote 45.14.71.23:45268] load_user
+[Sat Jan 21 18:46:31.605040 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45268] load_user
+[Sat Jan 21 18:46:34.117958 2023] [wsgi:error] [pid 10527:tid 140408456726272] [remote 45.14.71.23:45268] load_user
+[Sat Jan 21 18:46:38.698086 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45278] load_user
+[Sat Jan 21 19:01:34.881129 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45602] load_user
+[Sat Jan 21 19:01:46.387756 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45606] load_user
+[Sat Jan 21 19:02:03.926484 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45618] load_user
+[Sat Jan 21 19:02:04.296365 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45618] ImmutableMultiDict([('role[]', '\xd1\x82\xd0\xb5\xd0\xb9\xd0\xba\xd0\xb5\xd1\x80-\xd1\x82\xd0\xb5\xd0\xb9\xd0\xba\xd0\xb5\xd1\x80')])
+[Sat Jan 21 19:02:04.296556 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45618] IN ('Binance', 'Bybit', 'Garantex', 'Kucoin')
+[Sat Jan 21 19:02:04.296577 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45618] []
+[Sat Jan 21 19:02:04.296591 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45618] crypto_path LIKE '%'
+[Sat Jan 21 19:05:18.150210 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45710] load_user
+[Sat Jan 21 19:05:24.814503 2023] [wsgi:error] [pid 10527:tid 140408465118976] [remote 45.14.71.23:45722] load_user
+[Sat Jan 21 19:05:53.522520 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740] (0,)
+[Sat Jan 21 19:05:53.524361 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740] [2023-01-21 19:05:53,523] ERROR in app: Exception on /singup [POST]
+[Sat Jan 21 19:05:53.524393 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740] Traceback (most recent call last):
+[Sat Jan 21 19:05:53.524401 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 2525, in wsgi_app
+[Sat Jan 21 19:05:53.524409 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]     response = self.full_dispatch_request()
+[Sat Jan 21 19:05:53.524421 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 1822, in full_dispatch_request
+[Sat Jan 21 19:05:53.524429 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]     rv = self.handle_user_exception(e)
+[Sat Jan 21 19:05:53.524435 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 1820, in full_dispatch_request
+[Sat Jan 21 19:05:53.524443 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]     rv = self.dispatch_request()
+[Sat Jan 21 19:05:53.524449 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]   File "/root/.local/share/virtualenvs/flask_app-07Yk4EGt/lib/python3.8/site-packages/flask/app.py", line 1796, in dispatch_request
+[Sat Jan 21 19:05:53.524457 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+[Sat Jan 21 19:05:53.524464 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]   File "/home/flask_app/app.py", line 63, in singup
+[Sat Jan 21 19:05:53.524471 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]     result = conn.addUser(request.form['name'], request.form['email'], hash)
+[Sat Jan 21 19:05:53.524478 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]   File "/home/flask_app/db.py", line 90, in addUser
+[Sat Jan 21 19:05:53.524495 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740]     self.cursor.execute("INSERT INTO users(name, email, password, time) VALUES(?, ?, ?, ?)", (name, email, hash, tm))
+[Sat Jan 21 19:05:53.524550 2023] [wsgi:error] [pid 10527:tid 140408490297088] [remote 45.14.71.23:45740] sqlite3.OperationalError: attempt to write a readonly database
+[Sat Jan 21 19:06:14.574711 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 45.14.71.23:45742] (0,)
+[Sat Jan 21 19:06:28.108821 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 45.14.71.23:45778] where?
+[Sat Jan 21 19:06:28.946512 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 45.14.71.23:45778] load_user
+[Sat Jan 21 19:06:33.603945 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 45.14.71.23:45778] load_user
+[Sat Jan 21 19:06:35.392441 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 45.14.71.23:45778] load_user
+[Sat Jan 21 19:06:42.789412 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 45.14.71.23:45782] load_user
+[Sat Jan 21 19:07:17.647635 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 45.14.71.23:45796] load_user
+[Sat Jan 21 19:07:41.097534 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 45.14.71.23:45810] load_user
+[Sat Jan 21 20:01:41.164800 2023] [core:error] [pid 10796:tid 140408473511680] [client 162.221.192.26:33476] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Jan 21 20:39:40.233937 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.219:53720] load_user
+[Sun Jan 22 06:50:58.882315 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.49.210:38034] load_user
+[Sun Jan 22 06:52:50.710518 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.210:56276] load_user
+[Sun Jan 22 06:53:33.972903 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.210:42384] load_user
+[Sun Jan 22 06:55:55.035427 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.210:46920] load_user
+[Sun Jan 22 06:56:00.020829 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.210:46928] load_user
+[Sun Jan 22 06:56:15.320002 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.210:36648] load_user
+[Sun Jan 22 06:57:51.866711 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.49.210:44222] load_user
+[Sun Jan 22 07:07:59.283166 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.49.210:47070] load_user
+[Sun Jan 22 07:09:24.814370 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.49.210:57310] load_user
+[Sun Jan 22 07:34:40.755725 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.49.210:60704] load_user
+[Sun Jan 22 07:34:49.697305 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.49.210:60706] load_user
+[Sun Jan 22 07:34:52.755420 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.49.210:60706] load_user
+[Sun Jan 22 13:49:24.346166 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.14.166:49496] load_user
+[Sun Jan 22 13:49:26.665930 2023] [wsgi:error] [pid 10795:tid 140408456726272] [remote 84.239.14.166:49570] load_user
+[Sun Jan 22 13:51:51.413982 2023] [wsgi:error] [pid 10795:tid 140408490297088] [remote 84.239.14.166:50868] load_user

@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link href="https://cryptocloud.plus/widget/v2/css/app.css" rel="stylesheet">
+<script src="https://cryptocloud.plus/widget/v2/js/app.js"></script>
+{% endblock %}
+
+{% block title %}
+Профайл пользователя
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="bg-dark text-center py-9">
+            <div class="container">
+              
+              <div class="col-12 col-md-7 mx-auto">
+                <h1 class="text-white fs-lg-7 fs-md-4 fs-3 my-4">Личный кабинет</h1>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================-->
+          <!-- ============================================-->
+
+
+<section class="pb-0">
+<div class="container">
+{% for cat, msg in get_flashed_messages(True) %}
+<div class="flash {{cat}}">{{msg}}</div>
+{% endfor %}
+
+<table border="0" class="profile-table">
+   <tr><td valign="top">
+       <div class="profile-ava"><img src="{{url_for('userava')}}"></div>
+       <div class="profile-load">
+       <form action="{{url_for('upload')}}" method="POST" enctype="multipart/form-data">
+            <p><input type="file" name="file">
+            <p><input type="submit" value="зaгpузить">
+       </form>
+       </div>
+   </td>
+   <td valign="top" class="profile-panel">
+       <p><a href="{{url_for('logout')}}"> Выйти из профиля </a>
+       <ul class="profile-info">
+       <li>Имя: {{current_user.getName()}}</li>
+       <li>Email: {{current_user.getEmail()}}</li>
+       <li>Подписка до: {{current_user.getPayDate()}}</li>
+       <li></li>
+       <li><br><h3>Оплатить подписку</h3>
+        <vue-widget shop_id="IKSHwdjlAr2uRrip" api_key="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjQxNiwiZXhwIjo4ODA2MTk0MjI0NX0.O7R4EeQ0BGLW719QNkn4xEEHs8MgHY-PgdzNBJVZ-lk" currency="RUB" amount="5000"></vue-widget></li>
+       </ul>
+   </td></tr>
+</table>
+</div>
+</section>
+
+
+{%endblock%}
